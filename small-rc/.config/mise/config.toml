@@ -1,0 +1,26 @@
+#schema = "https://mise.jdx.dev/schema/mise.json"
+
+[tools]
+bat = "latest"
+delta = "latest"
+eza = "latest"
+fd = "latest"
+fzf = "latest"
+go = "latest"
+lazygit = "latest"
+neovim = "latest"
+node = "lts"
+opencode = { version = "latest", allow_builds = ["@opencode/cli"] }
+ripgrep = "latest"
+ruby = "latest"
+rust = "latest"
+usage = "latest"
+xh = "latest"
+yazi = "latest"
+yq = "latest"
+zellij = "latest"
+zoxide = "latest"
+
+[settings]
+yes = false
+self_update.auto = true
