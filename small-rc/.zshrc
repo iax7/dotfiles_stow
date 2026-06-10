@@ -22,6 +22,7 @@ command -v zoxide >/dev/null && eval "$(zoxide init --cmd cd zsh)"
 export EDITOR=vim
 export LANG=en_US.UTF-8
 export PROMPT_EOL_MARK='⏎'
+export PATH="$HOME/bin:$PATH"
 
 # Global Aliases
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
